@@ -1,17 +1,17 @@
-import pyttsx3
+import pyttsx3                                  # pip install pyttsx3
 import webbrowser as web
 import time
 import keyboard
-import smtplib
+import smtplib                                  # pip install secure-smtplib
 import os
 from PIL import Image
 import datetime as dt
 import requests
-from os import startfile
-from pyautogui import click
-from keyboard import press
-from keyboard import write
-from time import sleep
+# from os import startfile
+# from pyautogui import click
+# from keyboard import press
+# from keyboard import write
+# from time import sleep
 
 Assistant = pyttsx3.init('sapi5')
 voices = Assistant.getProperty('voices')

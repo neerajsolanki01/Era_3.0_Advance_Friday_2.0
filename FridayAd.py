@@ -1,33 +1,35 @@
-import speech_recognition as sr
-import pyttsx3
-import time
-from time import sleep
+import speech_recognition as sr                         # pip install SpeechRecognition
+#  From Archived: Unofficial Windows Binaries for Python Extension Packages " https://www.lfd.uci.edu/~gohlke/pythonlibs/ "
+#  pip install .\PyAudio-0.2.11-cp38-cp38-win_amd64.whl
+import pyttsx3                                          # pip install pyttsx3
+# import time
+# from time import sleep
 import datetime
 import datetime as dt
-import pywhatkit
-import keyboard
+import pywhatkit                                        # pip install pywhatkit
+import keyboard                                         # pip install keyboard
 from keyboard import press_and_release
 from keyboard import press
 import random
-import wikipedia
+import wikipedia                                        # pip install wikipedia
 import webbrowser
-import webbrowser as web
+# import webbrowser as web
 import os
-from playsound import playsound
-import mss
-import cv2
-from requests import get
-import numpy as np
-import pyautogui
-import smtplib
-import pyjokes
-from pywikihow import search_wikihow
+# from playsound import playsound
+# import mss
+# import cv2
+from requests import get                                # pip install requests
+# import numpy as np
+import pyautogui                                        # pip install PyAutoGUI
+# import smtplib
+import pyjokes                                          # pip install pyjokes
+from pywikihow import search_wikihow                    # pip install pywikihow
 import requests
-from bs4 import BeautifulSoup
-import pyscreenshot as ImageGrab
-from googletrans import Translator
+from bs4 import BeautifulSoup                           # pip install beautifulsoup4
+# import pyscreenshot as ImageGrab
+# from googletrans import Translator
 import features
-import wolframalpha
+# import wolframalpha                                      # pip install wolframalpha
 # import chatbot
 # from PyDictionary import PyDictionary as Dict
 
