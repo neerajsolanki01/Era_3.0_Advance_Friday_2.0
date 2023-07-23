@@ -239,10 +239,9 @@ def TaskExe():
 
         elif 'weather' in query:
             try:
-                # API_ID = "6bdc65b2712df413f9c8c024944dddb8"
 
                 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-                API_KEY = "6bdc65b2712df413f9c8c024944dddb8"
+                API_KEY = "893850988986987769ljjhsvl ji88977 "
                 speak('At where are you.')
                 CITY = takecommand().lower()
                 query = query.replace('in', ' ')
@@ -557,33 +556,33 @@ def TaskExe():
             query = query.replace("to", "")
             name = query
             if 'vinita' in name:
-                num = "6260585621"
+                num = "626**********"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_msg(num, mess)
             elif 'papa' in name:
-                num = "7000432939"
+                num = "700**********"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_msg(num, mess)
             elif 'neeraj' in name:
-                num = "7089951002"
+                num = "7089*********"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_msg(num, mess)
             elif 'ritesh' in name:
-                num = "8817956908"
+                num = "8817*********"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_msg(num, mess)
             elif 'friend' in name:
-                gro = "FzSPRlptL5DIDHSpphvNWy"
+                gro = "FzSPRlptL5DIDHSpphvgNWy"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_grp(gro, mess)
 
             elif 'data' in name:
-                gro = "IBOQSwzgucqIxxUtIqSS0h"
+                gro = "IBOQSwzgucqIxxUtrIqSS0hg"
                 speak(f"What's the message for {name}")
                 mess = takecommand()
                 features.whatsapp_grp(gro, mess)
@@ -594,7 +593,7 @@ def TaskExe():
             try:
                 speak('What should i say.')
                 content = takecommand().lower()
-                to = 'solankineeraj39@gmail.com'
+                to = 'solankineeraj@gmail.com'
                 features.sendEmail(to, content)
                 speak('Email Send')
 
@@ -606,7 +605,7 @@ def TaskExe():
             try:
                 speak('What should i say.')
                 content = takecommand().lower()
-                to = 'vinitasolanki017@gmail.com'
+                to = 'vinitasolanki@gmail.com'
                 features.sendEmail(to, content)
                 speak('Email Send')
 
