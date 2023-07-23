@@ -68,7 +68,7 @@ def whatsapp_grp(group_id, message):
         hour = int(takecommand())
         speak('Minutes')
         min = int(takecommand())
-        pywhatkit.sendwhatmsg('+916260585621', msg, hour, min, 20)
+        pywhatkit.sendwhatmsg('+9*******621', msg, hour, min, 20)
         speak('Whats app message send.')
 
     elif 'ritesh' in name:
@@ -79,7 +79,7 @@ def whatsapp_grp(group_id, message):
         hour = int(takecommand())
         speak('Minutes')
         min = int(takecommand())
-        pywhatkit.sendwhatmsg("+918817956908", msg, hour, min, 20)
+        pywhatkit.sendwhatmsg("+9188*****908", msg, hour, min, 20)
         speak('Whats app message send.')
 
     else:
@@ -103,8 +103,8 @@ def sendEmail(to, content):
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('neerajsolanki271@gmail.com', 'kkji gyqo huwb iqez')
-        server.sendmail('neerajsolanki271@gmail.com', to, content)
+        server.login('neerajsolank@gmail.com', 'kkji gyqoez')
+        server.sendmail('neerajsolank@gmail.com', to, content)
         server.close()
     except:
         speak('Try Again...')
@@ -120,7 +120,7 @@ def MyLocation():
     country = geo_d['country']
     speak(f'you are now in {state, country}.')
 
-Api_Key = "0Mbokl75mTpQGdcAhLwWeqzkCdALwlu9plyKMyeB"
+Api_Key = "0Mbokl75mTpQLw34tfgghnfgjkhlu9plyKMyeB"
 
 # Nasa
 def NasaNews(Date):
@@ -150,10 +150,9 @@ def NasaNews(Date):
 
 def Weather():
     try:
-        # API_ID = "6bdc65b2712df413f9c8c024944dddb8"
 
         BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-        API_KEY = "6bdc65b2712df413f9c8c024944dddb8"
+        API_KEY = "6bd******************8c024944dddb8"
         CITY = 'Dewas'
 
         def kelvin_celsius(kelvin):
