@@ -120,7 +120,7 @@ def MyLocation():
     country = geo_d['country']
     speak(f'you are now in {state, country}.')
 
-Api_Key = "0Mbokl75mTpQLw34tfgghnfgjkhlu9plyKMyeB"
+Api_Key = "0Mbokl75hehtvfgjjhwk63be73bhfKMyeB"
 
 # Nasa
 def NasaNews(Date):
